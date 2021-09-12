@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6BE5312E26ECF49F0097A719 /* SpiceHomeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5312D26ECF49F0097A719 /* SpiceHomeApp.swift */; };
-		6BE5313026ECF49F0097A719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5312F26ECF49F0097A719 /* ContentView.swift */; };
 		6BE5313226ECF4A00097A719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE5313126ECF4A00097A719 /* Assets.xcassets */; };
 		6BE5313526ECF4A00097A719 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE5313426ECF4A00097A719 /* Preview Assets.xcassets */; };
 		6BE5314026ECF4A00097A719 /* SpiceHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5313F26ECF4A00097A719 /* SpiceHomeTests.swift */; };
@@ -21,6 +20,7 @@
 		6BE5316826EE39B40097A719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BE5316726EE39B40097A719 /* GoogleService-Info.plist */; };
 		6BE5316926EE39B40097A719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BE5316726EE39B40097A719 /* GoogleService-Info.plist */; };
 		6BE5316A26EE39B40097A719 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6BE5316726EE39B40097A719 /* GoogleService-Info.plist */; };
+		6BE5317026EE44CE0097A719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE5316F26EE44CE0097A719 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,6 @@
 /* Begin PBXFileReference section */
 		6BE5312A26ECF49F0097A719 /* SpiceHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpiceHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BE5312D26ECF49F0097A719 /* SpiceHomeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiceHomeApp.swift; sourceTree = "<group>"; };
-		6BE5312F26ECF49F0097A719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6BE5313126ECF4A00097A719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BE5313426ECF4A00097A719 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6BE5313626ECF4A00097A719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		6BE5315F26ECFEF80097A719 /* ProductListingScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListingScrollView.swift; sourceTree = "<group>"; };
 		6BE5316126ECFFAF0097A719 /* ProductSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSectionView.swift; sourceTree = "<group>"; };
 		6BE5316726EE39B40097A719 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6BE5316F26EE44CE0097A719 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,8 +148,8 @@
 		6BE5315A26ECF53F0097A719 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6BE5316F26EE44CE0097A719 /* ContentView.swift */,
 				6BE5315826ECF5350097A719 /* PlateView.swift */,
-				6BE5312F26ECF49F0097A719 /* ContentView.swift */,
 				6BE5315B26ECF5DF0097A719 /* ProductCardMiniView.swift */,
 				6BE5315D26ECFE800097A719 /* SectionBackground.swift */,
 				6BE5315F26ECFEF80097A719 /* ProductListingScrollView.swift */,
@@ -290,9 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BE5313026ECF49F0097A719 /* ContentView.swift in Sources */,
 				6BE5316226ECFFAF0097A719 /* ProductSectionView.swift in Sources */,
 				6BE5312E26ECF49F0097A719 /* SpiceHomeApp.swift in Sources */,
+				6BE5317026EE44CE0097A719 /* ContentView.swift in Sources */,
 				6BE5315926ECF5350097A719 /* PlateView.swift in Sources */,
 				6BE5315E26ECFE800097A719 /* SectionBackground.swift in Sources */,
 				6BE5316026ECFEF80097A719 /* ProductListingScrollView.swift in Sources */,
